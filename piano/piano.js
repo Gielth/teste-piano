@@ -89,3 +89,7 @@ teclasPiano.forEach(tecla => {
         notaAtual = notaTocada;
     })
 })
+
+const mainScreen = document.querySelector('.main')
+
+mainScreen.addEventListener('touchmove', event => event.preventDefault());
